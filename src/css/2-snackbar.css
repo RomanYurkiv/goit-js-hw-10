@@ -3,6 +3,25 @@
     flex-direction: column;
 }
 
+.button-like-link {
+    font-family: Montserrat;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #4E75FF;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-like-link:hover {
+    background-color: #6c8cff;
+
+}
+
 .label-delay {
     display: flex;
     flex-direction: column;
